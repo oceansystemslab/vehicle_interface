@@ -1,0 +1,8 @@
+# vehicle_msgs/Vector6Service.srv
+#   basic service type for float array request/response services
+
+float32[6] request
+---
+
+bool result
+float32[6] response
