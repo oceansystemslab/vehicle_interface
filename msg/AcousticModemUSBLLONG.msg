@@ -1,4 +1,4 @@
-# vehicle_msgs/AcousticModemUSBL.msg
+# vehicle_msgs/AcousticModemUSBLLONG.msg
 # message containing USBL data published by modem driver
 
 Header header                           # message header which contains current timestamp
