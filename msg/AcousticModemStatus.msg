@@ -6,7 +6,6 @@ string MODEM_ENABLED=enabled
 string MODEM_DISABLED=disabled
 
 Header header                          # message header
-
 string status                          # status (e.g. enabled, disabled)
 
 diagnostic_msgs/KeyValue[] info        # optional field for additional data

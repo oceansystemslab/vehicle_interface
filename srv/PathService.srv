@@ -1,6 +1,11 @@
 # vehicle_msgs/PathService.srv
 #   service type for path planner operations
 
+string CMD_START=start
+string CMD_RESET=reset
+string CMD_HOVER=hover
+string CMD_CALL=call
+
 Header header                           # stamp the message
 string command                          # request a given fsm state
 

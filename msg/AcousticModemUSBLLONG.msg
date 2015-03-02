@@ -5,6 +5,7 @@ Header header                           # message header which contains current 
 
 float32 measurement_time                # Timestamp of the target position measurement in the local devices System Time
 uint8 remote_address                    # the target's address
+
 float32 X                               # X coordinate of the target in the local device's reference frame in metres
 float32 Y                               # Y coordinate of the target in the local device's reference frame in metres
 float32 Z                               # Z coordinate of the target in the local device's reference frame in metres
