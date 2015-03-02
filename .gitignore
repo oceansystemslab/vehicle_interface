@@ -16,7 +16,7 @@
 **/Makefile
 **/CMakeFiles
 **/CMakeCache.txt
-**/.cmake_install.cmake
+**/cmake_install.cmake
 **/bin
 **/build
 **/lib
