@@ -7,5 +7,6 @@ string MODEM_DISABLED=disabled
 
 Header header                          # message header
 string status                          # status (e.g. enabled, disabled)
+float32 battery_level                  # voltage of the batteries
 
 diagnostic_msgs/KeyValue[] info        # optional field for additional data
