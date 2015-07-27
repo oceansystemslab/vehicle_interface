@@ -9,10 +9,14 @@
 #
 
 # common commands
-string CMD_START=start                  # start the navigation once a path as been loaded or requested
-string CMD_RESET=reset                  # abort the navigation disabling the pilot module and cancelling the current path
-string CMD_HOVER=hover                  # pause the navigation (if any) and make the vehicle hold its position
-string CMD_PATH=path                    # request a new path (this will produce a new path id)
+#   start:  start the navigation once a path as been loaded or requested
+#   reset:  abort the navigation disabling the pilot module and cancelling the current path
+#   hover:  pause the navigation (if any) and make the vehicle hold its position
+#   path:   request a new path (this will produce a new path id)
+string CMD_START=start
+string CMD_RESET=reset
+string CMD_HOVER=hover
+string CMD_PATH=path
 
 Header header                           # keep track of time
 string command                          # request a given state in the path controller
