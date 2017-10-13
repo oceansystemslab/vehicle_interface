@@ -1,0 +1,15 @@
+<package format="2">
+  <name>vehicle_interface</name>
+  <version>0.0.0</version>
+  <description>
+    Messages for modems mostly
+  </description>
+  <maintainer email="valerio.decarolis@gmail.com">Valerio De Carolis</maintainer>
+  <author>Valerio De Carolis</author>
+  <author>Marian Andrecki</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>message_generation</depend>
+  <depend>diagnostic_msgs</depend>
+</package>
